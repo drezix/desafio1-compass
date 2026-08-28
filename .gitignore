@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.Python
+
+# Ambientes virtuais
+.venv/
+venv/
+env/
+
+# Testes e ferramentas
+.pytest_cache/
+.coverage
+htmlcov/
+semgrep.sarif
+
+# Segredos - nunca versionar
+.env
+*.pem
+*.key
+
+# IDE / SO
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
